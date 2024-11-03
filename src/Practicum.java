@@ -5,7 +5,7 @@ public class Practicum {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Сколько денег у вас осталось до зарплаты?");
         double moneyBeforeSalary = scanner.nextDouble();
-        System.out.println("Сколько дней до зарплаты?");
+        System.out.println("Сколько дней до зарплаты ?");
         int daysBeforeSalary = scanner.nextInt();
 
         Converter converter = new Converter(94.8, 103.8, 13.1);
